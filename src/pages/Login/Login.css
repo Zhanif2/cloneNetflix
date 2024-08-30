@@ -3,6 +3,8 @@
     background: linear-gradient(#0000007e, #0000007e), 
     url(/background-img.jpg);
     padding: 20px 8%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .login-logo{
