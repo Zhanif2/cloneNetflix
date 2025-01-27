@@ -38,12 +38,13 @@
 
 .navbar-right .icons{
     width: 20px;
-    cursor: pointer;
+    cursor: not-allowed;
 }
 
 .navbar-right .profile{
     border-radius: 4px;
-    width: 35px;
+    width: 25px;
+    height: 25px;
 }
 
 .navbar-profile {
@@ -52,6 +53,10 @@
    gap: 10px;
    cursor: pointer; 
    position: relative;
+}
+
+ .navbar-right{
+    cursor: not-allowed;
 }
 
 

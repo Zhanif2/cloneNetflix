@@ -40,7 +40,7 @@ const Navbar = () => {
         <img src={bell_icon} alt="" className='icons'/>
         <div className="navbar-profile">
         <img src={profile_img} alt="" className='profile'/>
-        <img src={caret_icon} alt="" />
+        <img src={caret_icon} alt=""/>
         <div className="dropdown">
           <p onClick={() => {logout()}}>Sign out of Netflix</p>
         </div>
